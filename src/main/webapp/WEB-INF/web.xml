@@ -1,0 +1,17 @@
+<web-app>
+<servlet>
+
+    <servlet-name>UseRequestServlet1Mapping</servlet-name>
+
+    <servlet-class>web_basic.UseRequestServlet1</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+    <servlet-name>UseRequestServlet1Mapping</servlet-name>
+
+    <url-pattern>/UseRequestServlet1</url-pattern>//大文字小文字を確認する事ここでURLをとばしている認識
+
+</servlet-mapping>
+</web-app>
