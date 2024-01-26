@@ -8,11 +8,13 @@
 </head>
 <body>
 <h1>数字を入力してください</h1>
+<form action="" method="post">
 
 数字１：<input type="text"></input><br>Scanner scanner = new Scanner();
 数字２：<input type="text"></input><br>
 
 足し算結果：request.getParameter("key名　ここは変更予定")；
 
+</form>
 </body>
 </html>
